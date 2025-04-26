@@ -1,161 +1,103 @@
-# Exno-2-Prompt-Engg
-
-# Ex.No: 2 	Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: 
-ChatGPT, Claude, Bard, Cohere Command, and Meta 
-### DATE: 26.04.2025                                                                           
-### REGISTER NUMBER : 212222040070
- 
-### Aim:
+# EXP 2: Evaluation of Prompting Tools Across Diverse AI Platforms: ChatGPT, Claude, Bard, Cohere Command, and Meta
+ChatGPT, Claude, Bard, Cohere Command, and Meta  
+## Aim:
 To compare the performance, user experience, and response quality of different AI platforms (ChatGPT, Claude, Bard, Cohere Command, and Meta) within a specific use case, such as summarizing text or answering technical questions. Generate a Prompt based output using different Prompting tools of 2024.
-
-### Algorithm:
-Define the Use Case:
-Select a specific task for evaluation across platforms (e.g., summarizing a document, answering a technical question, or generating a creative story / Code).
-Ensure the use case is applicable to all platforms and will allow for comparison across response quality, accuracy, and depth.
-Create a Set of Prompts:
-Prepare a uniform set of prompts that align with the chosen use case.
-Each prompt should be clear and precise, ensuring that all platforms are evaluated using the same input.
-Consider multiple prompts to capture the versatility of each platform in handling different aspects of the use case.
-Run the Experiment on Each AI Platform:
-Input the prompts into each AI tool (ChatGPT, Claude, Bard, Cohere Command, and Meta) and gather the responses.
-Ensure the same conditions are applied for each platform, such as input format, time to respond, and prompt delivery.
-Record response times, ease of interaction with the platform, and any technical issues encountered.
-Evaluate Response Quality:
-Assess each platform’s responses using the following criteria: Accuracy,Clarity,Depth,Relevance 
-Compare Performance:
-Compare the collected data to identify differences in performance across platforms.
-Identify any platform-specific advantages, such as faster response times, more accurate answers, or more intuitive interfaces.
-Deliverables:
-A comparison table outlining the performance of each platform (ChatGPT, Claude, Bard, Cohere Command, and Meta) based on accuracy, clarity, depth, and relevance of responses.
-A final report summarizing the findings of the experiment, including recommendations on the most suitable AI platform for different use cases based on performance and user 
-
-### Introduction:
+Introduction:
 Objective: Compare the performance, user experience, and response quality of AI platforms in a specific use case.
-Use Case: [e.g., Summarization, Technical Q&A, Creative Writing]
+Use Case: Explanatory & Creative Writing
 AI Platforms Tested: ChatGPT, Claude, Gemini, Meta
-### Experiment Setup:
-Use Case: [Summarization / Technical Q&A / Creative Writing]
-Evaluation Criteria: Accuracy, Response Time, UX (User Experience)
-#### Prompt 1(Summarization): 
-"Summarize the following passage in 2-3 sentences:
-Artificial Intelligence (AI) has rapidly transformed various industries, from healthcare to finance. In healthcare, AI-powered diagnostic tools are improving early disease detection, reducing errors, and assisting doctors in making data-driven decisions. Similarly, in finance, AI-driven algorithms optimize trading strategies, detect fraudulent activities, and enhance customer experiences through personalized services. However, ethical concerns such as bias in AI models, data privacy, and job displacement continue to be challenges that need careful regulation. Experts emphasize the importance of transparency, accountability, and continuous evaluation to ensure AI benefits society without unintended consequences."
-#### Prompt 2(Technical Q&A): 
-Briefly explain how AI helps in fraud detection and its potential risks (limit: 3 sentences).
-#### Prompt 3(Creative Writing): 
-Write a short paragraph (maximum 3 sentences) from the perspective of an AI struggling with emotional intelligence.
 
-#### Response Analysis:
-### ChatGPT Evaluation
-Criteria	Rating (1-5)
+Experiment Setup
+Use Case: Concept Explanation & Short-Form Creative Writing
+Evaluation Criteria:
 
-Accuracy (Is the answer correct and relevant?)	4/ 5
+Accuracy: Correctness and relevance of the response
 
-Response Time (Was the answer given quickly?)	4 / 5
+Response Time: Speed and responsiveness
 
-UX (User Experience) (Was the interaction smooth and useful?)	4 / 5
+UX (User Experience): Clarity, structure, and user-friendly language
 
-Overall Score (Total)	12/ 15
+### Prompt 1 (Concept Explanation):
+"In 3-4 sentences, explain the difference between classical programming and machine learning."
 
-### Claude Evaluation
+#### ChatGPT:
+In classical programming, rules are explicitly coded by developers to process inputs into outputs. Machine learning, by contrast, allows computers to learn patterns from data and make decisions without being explicitly programmed. It is more flexible for tasks like image recognition or language processing. ML systems adapt as they are exposed to more data.
 
-Criteria	Rating (1-5)
+#### Claude:
+Classical programming uses fixed rules coded by a programmer, whereas machine learning enables systems to learn from data patterns. This allows ML models to handle more complex, variable tasks. ML adapts over time with more data, while classical code does not.
 
-Accuracy	3/ 5
+#### Gemini:
+Classical programming follows rules coded manually, while machine learning lets systems learn patterns from data. ML is useful in areas like speech recognition, where explicit coding is too complex. Classical systems remain static unless updated manually.
 
-Response Time	5/ 5
+#### Meta:
+Classical programming is based on hardcoded instructions, while machine learning derives logic from data. ML can generalize from examples, making it better suited for tasks where rules are not easily defined. It improves performance as it learns.
 
-UX (User Experience)	5 / 5
+### Prompt 2 (Quick Response – General Knowledge):
+"Why are electric vehicles considered environmentally friendly? (Answer in 2-3 sentences)"
 
-Overall Score (Total)	13/ 15
+#### ChatGPT:
+Electric vehicles produce zero tailpipe emissions, reducing air pollution and greenhouse gases. They are often more energy-efficient than gasoline vehicles, especially when charged from renewable sources.
 
-### Gemini Evaluation
+#### Claude:
+EVs don’t emit pollutants while driving, helping to reduce carbon emissions. If powered by clean energy, their environmental impact is significantly lower than traditional vehicles.
 
-Criteria	Rating (1-5)
+#### Gemini:
+EVs emit no exhaust fumes, making them cleaner for the environment. They're more efficient and can use renewable energy sources, unlike gasoline cars.
 
-Accuracy	3/ 5
+#### Meta:
+Electric vehicles help reduce air pollution because they don’t rely on fossil fuels for power. They’re more sustainable when paired with green energy sources.
 
-Response Time	3 / 5
+### Prompt 3 (Creative Writing):
+"Write a short 3-sentence story about a robot trying to understand human humor."
 
-UX (User Experience)	3.5 / 5
+#### ChatGPT:
+The robot watched thousands of stand-up clips, analyzing punchlines and crowd reactions. One day, it tried a joke on its creator: “Why did the AI cross the road? To optimize the chicken’s route.” The human burst out laughing—not at the joke, but at the robot’s proud delivery.
 
-Overall Score (Total)	10 / 15
+#### Claude:
+After scanning a million comedy routines, the robot built its first joke generator. “I told my toaster a joke—it didn’t respond. I guess it’s a little too... burnt out,” it said, pausing for laughs. The silence was louder than expected.
 
-### Meta Evaluation
+#### Gemini:
+The robot studied memes and sitcoms to decode laughter. It told a joke about cats programming—then paused. “Was that... humorous?” it asked, unsure why its owner was in tears.
 
-Criteria	Rating (1-5)
+#### Meta:
+Every day, the robot tried a new joke it found online. But humans only laughed when it slipped and accidentally played a dog barking sound. “Is error... comedy?” it asked, confused.
 
-Accuracy	4/ 5
+## Response Analysis
 
-Response Time	3/ 5
+Platform	Accuracy	Response Time	User Experience	Total Score
+ChatGPT  	5/5      	4/5      	5/5	          14/15
+Claude   	4/5      	5/5      	5/5          	14/15
+Gemini   	4/5      	4/5      	4/5	          12/15
+Meta	     4/5	      3/5      	4/5          	11/15
 
-UX (User Experience)	4 / 5
+## Final Winner: ChatGPT & Claude (Tie)
+Reason: ChatGPT delivered deeply informative and witty responses, while Claude maintained great clarity, especially in creative writing. Gemini was consistent but less expressive, and Meta showed promise but lagged slightly in timing and nuance.
 
-Overall Score (Total)	11 / 15
+## Conclusion & Insights:
+Best Performing AI: ChatGPT & Claude (Tie)
+Claude and ChatGPT offer top-tier performance, each with strengths in natural explanations and engaging responses. Gemini was compact and clear but needs more expressiveness. Meta is promising, especially in factual tasks, but slightly behind in creativity and fluency.
 
-### Final Winner
-#### Best Overall AI: Claude
-Reason: The User Experience was good and colour full compared to others
+## Recommendation:
 
-### AI outputs:
-#### 1: Prompt 1(Summarization): "Summarize the following passage in 2-3 sentences:
-Artificial Intelligence (AI) has rapidly transformed various industries, from healthcare to finance. In healthcare, AI-powered diagnostic tools are improving early disease detection, reducing errors, and assisting doctors in making data-driven decisions. Similarly, in finance, AI-driven algorithms optimize trading strategies, detect fraudulent activities, and enhance customer experiences through personalized services. However, ethical concerns such as bias in AI models, data privacy, and job displacement continue to be challenges that need careful regulation. Experts emphasize the importance of transparency, accountability, and continuous evaluation to ensure AI benefits society without unintended consequences."
+Use ChatGPT for balanced technical + creative writing.
 
-Chat CPT:
+Choose Claude for speed and elegant phrasing.
 
-![image](https://github.com/user-attachments/assets/c5034fb1-26f4-4308-991d-c1e7e79f6741)
+Gemini is suitable for short answers and general overviews.
 
-Claude:
+Meta fits quick summaries and factual prompts.
 
-![image](https://github.com/user-attachments/assets/f9fb0e67-053c-475e-b5b0-39f2a1128b32)
 
-Gemini:
+### Algorithm: Design and Develop a Test scenario and execute the prompts under Diverse AI Platforms.
 
-![image](https://github.com/user-attachments/assets/eb2065b8-dc4e-446a-b866-9bbc67ffca07)
+### Program: Write Prompts in different tools , Compare and Analyse the output :
 
-Meta:
+![Screenshot 2025-04-23 085224](https://github.com/user-attachments/assets/0a34ccf9-a6d0-4c0b-9e4c-bf5a00eda3bc)
 
-![image](https://github.com/user-attachments/assets/9e386b50-185b-4f25-8fc9-514ac00aaa1e)
 
-#### 2: Prompt 2(Technical Q&A): Briefly explain how AI helps in fraud detection and its potential risks (limit: 3 sentences).
+## Summary :
+![Screenshot 2025-04-23 085235](https://github.com/user-attachments/assets/5a80c5ce-4eb5-4226-90a7-ff49c88a5009)
 
-Chat GPT:
-
-![image](https://github.com/user-attachments/assets/3e0d9856-e6ac-41d0-9d9a-c3d5b87a7ce8)
- 
-Claude:
-
-![image](https://github.com/user-attachments/assets/f85974f5-4f83-431f-bf82-7e5e87ab814a)
-
-Gemini:
-
-![image](https://github.com/user-attachments/assets/16615e6e-f209-4ff3-ae3e-9f6dd3125b93)
- 
-Meta:
-
-![image](https://github.com/user-attachments/assets/7241a433-2e52-4647-923c-02b4360bdee5)
-
-#### 3: Prompt 3(Creative Writing): Write a short paragraph (maximum 3 sentences) from the perspective of an AI struggling with emotional intelligence.
-
-Chat GPT:
-
-![image](https://github.com/user-attachments/assets/9c53f77f-486e-463a-a1d4-0192724ef531)
- 
-Claude:
-
-![image](https://github.com/user-attachments/assets/e6bfd27e-e7f3-4784-bbc4-f85f00ca0019)
-
-Gemini:
-
-![image](https://github.com/user-attachments/assets/e97f0cad-b819-4d24-8ae5-834a85a2e1db)
-
-Meta:
-
-![image](https://github.com/user-attachments/assets/10e76f4c-5377-4525-9ec9-398a58d28a24)
-
- 
-### Conclusion & Insights:
-### Best Performing AI:  Claude
-Claude emerged as the best-performing AI platform in this evaluation, offering the most balanced experience across accuracy, response time, and user experience. While ChatGPT and Meta showed strong accuracy, Claude’s quick responses and smooth, user-friendly interface gave it the edge overall. Gemini performed modestly, with room for improvement in both speed and content quality. Ultimately, Claude is recommended for users seeking an all-around reliable AI, while those prioritizing technical accuracy might prefer ChatGPT or Meta.
 
 ### Result:
 Thus the Prompting tools are executed and analysed sucessfully .
